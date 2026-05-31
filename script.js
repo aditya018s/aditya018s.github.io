@@ -12,7 +12,7 @@ const portfolio = {
   summary:     "Full Stack Developer building responsive frontends and secure backends using React, Java, Spring Boot, REST APIs & MySQL.",
 
   stats: [
-    { value: "2",        label: "Live Projects" },
+    { value: "4",        label: "Live Projects" },
     { value: "Full Stack", label: "Focus" },
     { value: "Java · React", label: "Core Stack" }
   ],
