@@ -195,17 +195,47 @@
     </section>
 
     <!-- ── RESUME ── -->
-    <section class="section resume-section motion-reveal" id="resume">
-      <div>
-        <span class="section-kicker">Resume</span>
-        <h2>Resume Snapshot</h2>
-        <p>Graduating BCA 2025 · Live projects · Open to full-stack internships and fresher roles across India.</p>
+    <section class="section resume-full-section motion-reveal" id="resume">
+      <div class="resume-header">
+        <div>
+          <span class="section-kicker">Resume</span>
+          <h2>My Resume</h2>
+          <p>Graduating BCA 2025 · 2 Live Projects · Open to full-stack internships & fresher roles across India.</p>
+        </div>
         <div class="resume-actions">
-          <button class="primary-btn" id="print-resume" type="button">⬇ Download / Print</button>
-          <a class="secondary-btn" href="mailto:aditya.s.solanki9536@gmail.com">Request PDF</a>
+          <a class="primary-btn" href="assets/Aditya_Resume.pdf" download="Aditya_Solanki_Resume.pdf">
+            ⬇ Download PDF
+          </a>
+          <a class="secondary-btn" href="assets/Aditya_Resume.pdf" target="_blank" rel="noreferrer">
+            ↗ Open in Tab
+          </a>
         </div>
       </div>
-      <article class="resume-card"></article>
+
+      <!-- PDF Preview -->
+      <div class="resume-preview-wrapper">
+        <div class="resume-preview-toolbar">
+          <span class="resume-filename">📄 Aditya_Solanki_Resume.pdf</span>
+          <div class="resume-toolbar-actions">
+            <a href="assets/Aditya_Resume.pdf" target="_blank" rel="noreferrer" class="toolbar-btn">↗ Full Screen</a>
+            <a href="assets/Aditya_Resume.pdf" download="Aditya_Solanki_Resume.pdf" class="toolbar-btn primary">⬇ Download</a>
+          </div>
+        </div>
+        <div class="resume-embed-wrap">
+          <iframe
+            src="assets/Aditya_Resume.pdf#toolbar=0&navpanes=0&scrollbar=0&view=FitH"
+            class="resume-iframe"
+            title="Aditya Solanki Resume"
+            loading="lazy"
+          ></iframe>
+          <!-- Fallback for mobile browsers that can't embed PDFs -->
+          <div class="resume-fallback">
+            <div class="fallback-icon">📄</div>
+            <p>PDF preview not available on this device.</p>
+            <a href="assets/Aditya_Resume.pdf" download="Aditya_Solanki_Resume.pdf" class="primary-btn">⬇ Download Resume</a>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- ── CONTACT ── -->

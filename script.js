@@ -506,7 +506,7 @@ function animateCounter(el, target, duration = 1200) {
 // ═══════════════════════════════════════════════════
 //  INIT
 // ═══════════════════════════════════════════════════
-document.querySelector("#print-resume").addEventListener("click", () => window.print());
+// Resume download handled by <a href="..."> tags directly
 document.querySelector("#footer-year").textContent = new Date().getFullYear();
 projectSearch.addEventListener("input", renderProjects);
 
